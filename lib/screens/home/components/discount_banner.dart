@@ -18,7 +18,7 @@ class DiscountBanner extends StatelessWidget {
         vertical: getProportionateScreenWidth(15),
       ),
       decoration: BoxDecoration(
-        color: Color(0xFF4A3298),
+        color: Color.fromARGB(255, 99, 72, 187),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Text.rich(
